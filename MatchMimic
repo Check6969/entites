@@ -1,0 +1,162 @@
+
+	function GetGitSound(GithubSnd,SoundName)
+		local url=GithubSnd
+		if not isfile(SoundName..".mp3") then
+			writefile(SoundName..".mp3", game:HttpGet(url))
+		end
+		local sound=Instance.new("Sound")
+		sound.SoundId=(getcustomasset or getsynasset)(SoundName..".mp3")
+		return sound
+	end
+	local Bound = GetGitSound("https://github.com/check78/Sounds/blob/main/mimic2.mp3?raw=true","Mimic2")
+	Bound.Parent = workspace.Mimic
+	Bound.Name = "MatchMimic1"
+	Bound.Volume = 1.5
+	Bound:Play()
+game.Lighting.MainColorCorrection.TintColor = Color3.fromRGB(212, 255, 0)
+game.Lighting.MainColorCorrection.Contrast = 0.3
+local tween = game:GetService("TweenService")
+tween:Create(game.Lighting.MainColorCorrection, TweenInfo.new(0.5), {Contrast = 0}):Play()
+local TweenService = game:GetService("TweenService")
+local TW = TweenService:Create(game.Lighting.MainColorCorrection, TweenInfo.new(0.5),{TintColor = Color3.fromRGB(255, 255, 255)})
+TW:Play()
+    local roast = Instance.new("Sound")
+    roast.Parent = workspace.Mimic
+    roast.Name = "roast"
+    roast.SoundId = "rbxassetid://9125936117"
+    roast.Volume = 0.5
+    roast.Pitch = 3
+    roast:Play()
+local v = game.Players.LocalPlayer
+if v.Character:GetAttribute("Hiding")  then
+    game.Players.LocalPlayer.Character.Humanoid:TakeDamage(100)
+    game:GetService("ReplicatedStorage").GameStats["Player_".. game.Players.LocalPlayer.Name].Total.DeathCause.Value = "The Mimic"
+    firesignal(game.ReplicatedStorage.EntityInfo.DeathHint.OnClientEvent, {"You died to The Mimic", "It copys an entity's cue.", "If you hear whispers while the cue is playing", "Do not hide in a closet"}, "Blue")
+end
+wait(0.5)
+if v.Character:GetAttribute("Hiding")  then
+    game.Players.LocalPlayer.Character.Humanoid:TakeDamage(100)
+    game:GetService("ReplicatedStorage").GameStats["Player_".. game.Players.LocalPlayer.Name].Total.DeathCause.Value = "The Mimic"
+    firesignal(game.ReplicatedStorage.EntityInfo.DeathHint.OnClientEvent, {"You died to The Mimic", "It copys an entity's cue.", "If you hear whispers while the cue is playing", "Do not hide in a closet"}, "Blue")
+end
+wait(0.5) --1
+if v.Character:GetAttribute("Hiding")  then
+    game.Players.LocalPlayer.Character.Humanoid:TakeDamage(100)
+    game:GetService("ReplicatedStorage").GameStats["Player_".. game.Players.LocalPlayer.Name].Total.DeathCause.Value = "The Mimic"
+    firesignal(game.ReplicatedStorage.EntityInfo.DeathHint.OnClientEvent, {"You died to The Mimic", "It copys an entity's cue.", "If you hear whispers while the cue is playing", "Do not hide in a closet"}, "Blue")
+end
+wait(0.5)
+if v.Character:GetAttribute("Hiding")  then
+    game.Players.LocalPlayer.Character.Humanoid:TakeDamage(100)
+    game:GetService("ReplicatedStorage").GameStats["Player_".. game.Players.LocalPlayer.Name].Total.DeathCause.Value = "The Mimic"
+    firesignal(game.ReplicatedStorage.EntityInfo.DeathHint.OnClientEvent, {"You died to The Mimic", "It copys an entity's cue.", "If you hear whispers while the cue is playing", "Do not hide in a closet"}, "Blue")
+end
+wait(0.5) --2
+if v.Character:GetAttribute("Hiding")  then
+    game.Players.LocalPlayer.Character.Humanoid:TakeDamage(100)
+    game:GetService("ReplicatedStorage").GameStats["Player_".. game.Players.LocalPlayer.Name].Total.DeathCause.Value = "The Mimic"
+    firesignal(game.ReplicatedStorage.EntityInfo.DeathHint.OnClientEvent, {"You died to The Mimic", "It copys an entity's cue.", "If you hear whispers while the cue is playing", "Do not hide in a closet"}, "Blue")
+end
+wait(0.5)
+if v.Character:GetAttribute("Hiding")  then
+    game.Players.LocalPlayer.Character.Humanoid:TakeDamage(100)
+    game:GetService("ReplicatedStorage").GameStats["Player_".. game.Players.LocalPlayer.Name].Total.DeathCause.Value = "The Mimic"
+    firesignal(game.ReplicatedStorage.EntityInfo.DeathHint.OnClientEvent, {"You died to The Mimic", "It copys an entity's cue.", "If you hear whispers while the cue is playing", "Do not hide in a closet"}, "Blue")
+end
+wait(0.5) --3
+if v.Character:GetAttribute("Hiding")  then
+    game.Players.LocalPlayer.Character.Humanoid:TakeDamage(100)
+    game:GetService("ReplicatedStorage").GameStats["Player_".. game.Players.LocalPlayer.Name].Total.DeathCause.Value = "The Mimic"
+    firesignal(game.ReplicatedStorage.EntityInfo.DeathHint.OnClientEvent, {"You died to The Mimic", "It copys an entity's cue.", "If you hear whispers while the cue is playing", "Do not hide in a closet"}, "Blue")
+end
+wait(0.5)
+if v.Character:GetAttribute("Hiding")  then
+    game.Players.LocalPlayer.Character.Humanoid:TakeDamage(100)
+    game:GetService("ReplicatedStorage").GameStats["Player_".. game.Players.LocalPlayer.Name].Total.DeathCause.Value = "The Mimic"
+    firesignal(game.ReplicatedStorage.EntityInfo.DeathHint.OnClientEvent, {"You died to The Mimic", "It copys an entity's cue.", "If you hear whispers while the cue is playing", "Do not hide in a closet"}, "Blue")
+end
+wait(0.5) --4
+if v.Character:GetAttribute("Hiding")  then
+    game.Players.LocalPlayer.Character.Humanoid:TakeDamage(100)
+    game:GetService("ReplicatedStorage").GameStats["Player_".. game.Players.LocalPlayer.Name].Total.DeathCause.Value = "The Mimic"
+    firesignal(game.ReplicatedStorage.EntityInfo.DeathHint.OnClientEvent, {"You died to The Mimic", "It copys an entity's cue.", "If you hear whispers while the cue is playing", "Do not hide in a closet"}, "Blue")
+end
+wait(0.5)
+if v.Character:GetAttribute("Hiding")  then
+    game.Players.LocalPlayer.Character.Humanoid:TakeDamage(100)
+    game:GetService("ReplicatedStorage").GameStats["Player_".. game.Players.LocalPlayer.Name].Total.DeathCause.Value = "The Mimic"
+    firesignal(game.ReplicatedStorage.EntityInfo.DeathHint.OnClientEvent, {"You died to The Mimic", "It copys an entity's cue.", "If you hear whispers while the cue is playing", "Do not hide in a closet"}, "Blue")
+end
+wait(0.5) --5
+if v.Character:GetAttribute("Hiding")  then
+    game.Players.LocalPlayer.Character.Humanoid:TakeDamage(100)
+    game:GetService("ReplicatedStorage").GameStats["Player_".. game.Players.LocalPlayer.Name].Total.DeathCause.Value = "The Mimic"
+    firesignal(game.ReplicatedStorage.EntityInfo.DeathHint.OnClientEvent, {"You died to The Mimic", "It copys an entity's cue.", "If you hear whispers while the cue is playing", "Do not hide in a closet"}, "Blue")
+end
+wait(0.5)
+if v.Character:GetAttribute("Hiding")  then
+    game.Players.LocalPlayer.Character.Humanoid:TakeDamage(100)
+    game:GetService("ReplicatedStorage").GameStats["Player_".. game.Players.LocalPlayer.Name].Total.DeathCause.Value = "The Mimic"
+    firesignal(game.ReplicatedStorage.EntityInfo.DeathHint.OnClientEvent, {"You died to The Mimic", "It copys an entity's cue.", "If you hear whispers while the cue is playing", "Do not hide in a closet"}, "Blue")
+end
+wait(0.5) --6
+if v.Character:GetAttribute("Hiding")  then
+    game.Players.LocalPlayer.Character.Humanoid:TakeDamage(100)
+    game:GetService("ReplicatedStorage").GameStats["Player_".. game.Players.LocalPlayer.Name].Total.DeathCause.Value = "The Mimic"
+    firesignal(game.ReplicatedStorage.EntityInfo.DeathHint.OnClientEvent, {"You died to The Mimic", "It copys an entity's cue.", "If you hear whispers while the cue is playing", "Do not hide in a closet"}, "Blue")
+end
+wait(0.5)
+if v.Character:GetAttribute("Hiding")  then
+    game.Players.LocalPlayer.Character.Humanoid:TakeDamage(100)
+    game:GetService("ReplicatedStorage").GameStats["Player_".. game.Players.LocalPlayer.Name].Total.DeathCause.Value = "The Mimic"
+    firesignal(game.ReplicatedStorage.EntityInfo.DeathHint.OnClientEvent, {"You died to The Mimic", "It copys an entity's cue.", "If you hear whispers while the cue is playing", "Do not hide in a closet"}, "Blue")
+end
+wait(0.5) --7
+if v.Character:GetAttribute("Hiding")  then
+    game.Players.LocalPlayer.Character.Humanoid:TakeDamage(100)
+    game:GetService("ReplicatedStorage").GameStats["Player_".. game.Players.LocalPlayer.Name].Total.DeathCause.Value = "The Mimic"
+    firesignal(game.ReplicatedStorage.EntityInfo.DeathHint.OnClientEvent, {"You died to The Mimic", "It copys an entity's cue.", "If you hear whispers while the cue is playing", "Do not hide in a closet"}, "Blue")
+end
+wait(0.5)
+if v.Character:GetAttribute("Hiding")  then
+    game.Players.LocalPlayer.Character.Humanoid:TakeDamage(100)
+    game:GetService("ReplicatedStorage").GameStats["Player_".. game.Players.LocalPlayer.Name].Total.DeathCause.Value = "The Mimic"
+    firesignal(game.ReplicatedStorage.EntityInfo.DeathHint.OnClientEvent, {"You died to The Mimic", "It copys an entity's cue.", "If you hear whispers while the cue is playing", "Do not hide in a closet"}, "Blue")
+end
+wait(0.5) --8
+if v.Character:GetAttribute("Hiding")  then
+    game.Players.LocalPlayer.Character.Humanoid:TakeDamage(100)
+    game:GetService("ReplicatedStorage").GameStats["Player_".. game.Players.LocalPlayer.Name].Total.DeathCause.Value = "The Mimic"
+    firesignal(game.ReplicatedStorage.EntityInfo.DeathHint.OnClientEvent, {"You died to The Mimic", "It copys an entity's cue.", "If you hear whispers while the cue is playing", "Do not hide in a closet"}, "Blue")
+end
+wait(0.5)
+if v.Character:GetAttribute("Hiding")  then
+    game.Players.LocalPlayer.Character.Humanoid:TakeDamage(100)
+    game:GetService("ReplicatedStorage").GameStats["Player_".. game.Players.LocalPlayer.Name].Total.DeathCause.Value = "The Mimic"
+    firesignal(game.ReplicatedStorage.EntityInfo.DeathHint.OnClientEvent, {"You died to The Mimic", "It copys an entity's cue.", "If you hear whispers while the cue is playing", "Do not hide in a closet"}, "Blue")
+end
+wait(0.5) --9
+if v.Character:GetAttribute("Hiding")  then
+    game.Players.LocalPlayer.Character.Humanoid:TakeDamage(100)
+    game:GetService("ReplicatedStorage").GameStats["Player_".. game.Players.LocalPlayer.Name].Total.DeathCause.Value = "The Mimic"
+    firesignal(game.ReplicatedStorage.EntityInfo.DeathHint.OnClientEvent, {"You died to The Mimic", "It copys an entity's cue.", "If you hear whispers while the cue is playing", "Do not hide in a closet"}, "Blue")
+end
+wait(0.5)
+if v.Character:GetAttribute("Hiding")  then
+    game.Players.LocalPlayer.Character.Humanoid:TakeDamage(100)
+    game:GetService("ReplicatedStorage").GameStats["Player_".. game.Players.LocalPlayer.Name].Total.DeathCause.Value = "The Mimic"
+    firesignal(game.ReplicatedStorage.EntityInfo.DeathHint.OnClientEvent, {"You died to The Mimic", "It copys an entity's cue.", "If you hear whispers while the cue is playing", "Do not hide in a closet"}, "Blue")
+end
+wait(0.5) --10
+if v.Character:GetAttribute("Hiding")  then
+    game.Players.LocalPlayer.Character.Humanoid:TakeDamage(100)
+    game:GetService("ReplicatedStorage").GameStats["Player_".. game.Players.LocalPlayer.Name].Total.DeathCause.Value = "The Mimic"
+    firesignal(game.ReplicatedStorage.EntityInfo.DeathHint.OnClientEvent, {"You died to The Mimic", "It copys an entity's cue.", "If you hear whispers while the cue is playing", "Do not hide in a closet"}, "Blue")
+end
+wait(0.5)
+if v.Character:GetAttribute("Hiding")  then
+    game.Players.LocalPlayer.Character.Humanoid:TakeDamage(100)
+    game:GetService("ReplicatedStorage").GameStats["Player_".. game.Players.LocalPlayer.Name].Total.DeathCause.Value = "The Mimic"
+    firesignal(game.ReplicatedStorage.EntityInfo.DeathHint.OnClientEvent, {"You died to The Mimic", "It copys an entity's cue.", "If you hear whispers while the cue is playing", "Do not hide in a closet"}, "Blue")
+end
+wait(0.5) --11
