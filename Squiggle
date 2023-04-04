@@ -1,0 +1,122 @@
+local spawn = Instance.new("Sound")
+spawn.Parent = game.Workspace
+spawn.Name = "Spawn"
+spawn.SoundId = "rbxassetid://2306939610"
+spawn.Volume = 0.5
+spawn:Play()
+local despawn = Instance.new("Sound")
+despawn.Parent = game.Workspace
+despawn.Name = "Despawn"
+despawn.SoundId = "rbxassetid://2306939610"
+despawn.Pitch = 0.7
+despawn.Volume = 0.5
+despawn.PlayOnRemove = true
+local bruh = math.random(150,1250)
+
+local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/check78/Endless-Doors-In-Doors/main/200.lua"))()
+
+-- Create entity
+local entity = Creator.createEntity({
+    CustomName = "A-200", -- Custom name of your entity
+    Model = "rbxassetid://11514030098", -- Can be GitHub file or rbxassetid
+    Speed = bruh, -- Percentage, 100 = default Rush speed
+    DelayTime = 2, -- Time before starting cycles (seconds)
+    HeightOffset = 0,
+    CanKill = true,
+    KillRange = 350,
+    BreakLights = false,
+    BackwardsMovement = true,
+    FlickerLights = {
+        false, -- Enabled/Disabled
+        1, -- Time (seconds)
+    },
+    Cycles = {
+        Min = 3,
+        Max = 3,
+        WaitTime = 3,
+    },
+    CamShake = {
+        false, -- Enabled/Disabled
+        {3.5, 20, 0.1, 1}, -- Shake values (don't change if you don't know)
+        40, -- Shake start distance (from Entity to you)
+    },
+    Jumpscare = {
+        false, -- Enabled/Disabled
+        {
+            Image1 = "rbxassetid://0", -- Image1 url
+            Image2 = "rbxassetid://0", -- Image2 url
+            Shake = true,
+            Sound1 = {
+                10483837590, -- SoundId
+                { Volume = 0.5 }, -- Sound properties
+            },
+            Sound2 = {
+                0, -- SoundId
+                { Volume = 0.5 }, -- Sound properties
+            },
+            Flashing = {
+                true, -- Enabled/Disabled
+                Color3.fromRGB(255, 0, 0), -- Color
+            },
+            Tease = {
+                false, -- Enabled/Disabled
+                Min = 1,
+                Max = 3,
+            },
+        },
+    },
+    CustomDialog = {"You died to A-200"}, -- Custom death message
+})
+
+-----[[ Advanced ]]-----
+entity.Debug.OnEntitySpawned = function(entityTable)
+    print("Entity has spawned:", entityTable.Model)
+end
+
+entity.Debug.OnEntityDespawned = function(entityTable)
+    print("Entity has despawned:", entityTable.Model)
+end
+
+entity.Debug.OnEntityStartMoving = function(entityTable)
+    print("Entity has started moving:", entityTable.Model)
+end
+
+entity.Debug.OnEntityFinishedRebound = function(entityTable)
+    print("Entity has finished rebound:", entityTable.Model)
+end
+
+entity.Debug.OnEntityEnteredRoom = function(entityTable, room)
+    print("Entity:", entityTable.Model, "has entered room:", room)
+end
+
+entity.Debug.OnLookAtEntity = function(entityTable)
+    print("Player has looked at entity:", entityTable.Model)
+end
+
+entity.Debug.OnDeath = function(entityTable)
+    warn("Player has died.")
+local tween = game:GetService("TweenService")
+tween:Create(game.Lighting.MainColorCorrection, TweenInfo.new(1), {Saturation = -1}):Play()
+tween:Create(game.Lighting.MainColorCorrection, TweenInfo.new(1), {Contrast = 2}):Play()
+local TweenService = game:GetService("TweenService")
+local TW = TweenService:Create(game.Lighting.MainColorCorrection, TweenInfo.new(1),{TintColor = Color3.fromRGB(255, 255, 255)})
+TW:Play()
+local CameraShaker = require(game.ReplicatedStorage.CameraShaker)
+local camara = game.Workspace.CurrentCamera
+local camShake = CameraShaker.new(Enum.RenderPriority.Camera.Value, function(shakeCf)
+	camara.CFrame = camara.CFrame * shakeCf
+end)
+camShake:Start()
+camShake:ShakeOnce(45,50,5,0.5,2,0.5)
+wait(1.5)
+tween:Create(game.Lighting.MainColorCorrection, TweenInfo.new(17), {Saturation = 0}):Play()
+tween:Create(game.Lighting.MainColorCorrection, TweenInfo.new(2), {Contrast = 0}):Play()
+local TW = TweenService:Create(game.Lighting.MainColorCorrection, TweenInfo.new(2),{TintColor = Color3.fromRGB(255, 255, 255)})
+TW:Play()
+end
+------------------------
+
+-- Run the created entity
+Creator.runEntity(entity)
+despawn:Destroy()
+spawn:Destroy()
