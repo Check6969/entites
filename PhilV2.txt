@@ -1,0 +1,18 @@
+function GitPNG(GithubImg,ImageName)
+	local url=GithubImg
+	if not isfile(ImageName..".png") then
+		writefile(ImageName..".png", game:HttpGet(url))
+	end
+	return (getcustomasset or getsynasset)(ImageName..".png")
+end
+local Phil = Instance.new("Part")
+Phil.Name = "Phil"
+Phil.Parent = workspace
+Phil.CFrame = CFrame.new(0, -9, 0)
+Phil.Anchored = true
+Phil.CanCollide = false
+Phil.Transparency = 1
+local omg = game:GetObjects("rbxassetid://10736929559")[1]
+omg.Name = "Face"
+omg.Parent = Phil
+omg.ImageLabel.Image = GitPNG("https://github.com/check78/entity-images/blob/main/Untitled241_20230322155244.png?raw=true","phil")
