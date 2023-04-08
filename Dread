@@ -86,7 +86,8 @@ end
 entityTable.Debug.OnDeath = function()
     warn("Player has died.")
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Potato032/Entt/main/Dreadfull"))()
-firesignal(game.ReplicatedStorage.EntityInfo.DeathHint.OnClientEvent, {"You died to who you call Dread...", "It will manifest itself through The Clock.", "The time is your friend, but, dont play with it."}, "Blue")
+wait(1.8)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatNoah/guidinglight/main/Dreadguidelight"))()
 end
 ------------------------------------
 
@@ -95,4 +96,3 @@ end
 Spawner.runEntity(entityTable)
 
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatNoah/guidinglight/main/Dreadguidelight"))()
