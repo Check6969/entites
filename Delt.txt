@@ -27,7 +27,7 @@ local entityTable = Spawner.createEntity({
     HeightOffset = 0,
     CanKill = true,
     KillRange = 50,
-    BackwardsMovement = false,
+    BackwardsMovement = true,
     BreakLights = true,
     FlickerLights = {
         true, -- Enabled/Disabled
