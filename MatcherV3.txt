@@ -96,9 +96,9 @@ end
 
 entity.Debug.OnDeath = function()
     warn("You died.")
-loadstring(game:HttpGet("https://raw.githubusercontent.com/check78/Jumpscares/main/MatcherJumpscare.txt"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatNoah/guidinglight/main/Matcherjumpscare.txt"))()
 wait(1.8)
-loadstring(game:HttpGet("https://raw.githubusercontent.com/check78/GuidingLight/main/MatchDie.txt"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatNoah/guidinglight/main/Matchdie"))()
 end
 
 ------------------------
