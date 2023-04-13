@@ -68,7 +68,7 @@ wait(1.2)
 	game:GetService("ReplicatedStorage").GameStats["Player_".. game.Players.LocalPlayer.Name].Total.DeathCause.Value = "Blink"
 	no = true
 	wait(1.8)
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/check78/GuidingLight/main/BlinkDie.txt"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatNoah/guidinglight/main/Blinkdie"))()
 	end
 	end
 eyes.Sound.Pitch = dances[math.random(1, #dances)]
@@ -82,7 +82,7 @@ wait(fuckyou[math.random(1, #fuckyou)])
 	game:GetService("ReplicatedStorage").GameStats["Player_".. game.Players.LocalPlayer.Name].Total.DeathCause.Value = "Blink"
 	no = true
 	wait(1.8)
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/check78/GuidingLight/main/BlinkDie.txt"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatNoah/guidinglight/main/Blinkdie"))()
 	end
 	end
 eyes.Sound.Pitch = dances[math.random(1, #dances)]
@@ -96,7 +96,7 @@ wait(fuckyou[math.random(1, #fuckyou)])
 	game:GetService("ReplicatedStorage").GameStats["Player_".. game.Players.LocalPlayer.Name].Total.DeathCause.Value = "Blink"
 	no = true
 	wait(1.8)
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/check78/GuidingLight/main/BlinkDie.txt"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatNoah/guidinglight/main/Blinkdie"))()
 	end
 	end
 eyes.Sound.Pitch = dances[math.random(1, #dances)]
@@ -110,7 +110,7 @@ wait(fuckyou[math.random(1, #fuckyou)])
 	game:GetService("ReplicatedStorage").GameStats["Player_".. game.Players.LocalPlayer.Name].Total.DeathCause.Value = "Blink"
 	no = true
 	wait(1.8)
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/check78/GuidingLight/main/BlinkDie.txt"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatNoah/guidinglight/main/Blinkdie"))()
 	end
 	end
 eyes.Sound.Pitch = dances[math.random(1, #dances)]
@@ -124,7 +124,7 @@ wait(fuckyou[math.random(1, #fuckyou)])
 	game:GetService("ReplicatedStorage").GameStats["Player_".. game.Players.LocalPlayer.Name].Total.DeathCause.Value = "Blink"
 	no = true
 	wait(1.8)
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/check78/GuidingLight/main/BlinkDie.txt"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatNoah/guidinglight/main/Blinkdie"))()
 	end
 	end
 eyes.Sound.Pitch = dances[math.random(1, #dances)]
@@ -138,7 +138,7 @@ wait(fuckyou[math.random(1, #fuckyou)])
 	game:GetService("ReplicatedStorage").GameStats["Player_".. game.Players.LocalPlayer.Name].Total.DeathCause.Value = "Blink"
 	no = true
 	wait(1.8)
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/check78/GuidingLight/main/BlinkDie.txt"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatNoah/guidinglight/main/Blinkdie"))()
 	end
 	end
 eyes.Sound.Pitch = dances[math.random(1, #dances)]
@@ -152,7 +152,7 @@ wait(fuckyou[math.random(1, #fuckyou)])
 	game:GetService("ReplicatedStorage").GameStats["Player_".. game.Players.LocalPlayer.Name].Total.DeathCause.Value = "Blink"
 	no = true
 	wait(1.8)
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/check78/GuidingLight/main/BlinkDie.txt"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatNoah/guidinglight/main/Blinkdie"))()
 	end
 	end
 eyes.Sound.Pitch = dances[math.random(1, #dances)]
@@ -166,7 +166,7 @@ wait(fuckyou[math.random(1, #fuckyou)])
 	game:GetService("ReplicatedStorage").GameStats["Player_".. game.Players.LocalPlayer.Name].Total.DeathCause.Value = "Blink"
 	no = true
 	wait(1.8)
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/check78/GuidingLight/main/BlinkDie.txt"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatNoah/guidinglight/main/Blinkdie"))()
 	end
 	end
 eyes.Sound.Pitch = dances[math.random(1, #dances)]
@@ -180,7 +180,7 @@ wait(fuckyou[math.random(1, #fuckyou)])
 	game:GetService("ReplicatedStorage").GameStats["Player_".. game.Players.LocalPlayer.Name].Total.DeathCause.Value = "Blink"
 	no = true
 	wait(1.8)
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/check78/GuidingLight/main/BlinkDie.txt"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatNoah/guidinglight/main/Blinkdie"))()
 	end
 	end
 eyes.Sound.Pitch = dances[math.random(1, #dances)]
@@ -194,7 +194,7 @@ wait(fuckyou[math.random(1, #fuckyou)])
 	game:GetService("ReplicatedStorage").GameStats["Player_".. game.Players.LocalPlayer.Name].Total.DeathCause.Value = "Blink"
 	no = true
 	wait(1.8)
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/check78/GuidingLight/main/BlinkDie.txt"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatNoah/guidinglight/main/Blinkdie"))()
 	end
 	end
 eyes.Sound.Pitch = dances[math.random(1, #dances)]
@@ -208,7 +208,7 @@ wait(fuckyou[math.random(1, #fuckyou)])
 	game:GetService("ReplicatedStorage").GameStats["Player_".. game.Players.LocalPlayer.Name].Total.DeathCause.Value = "Blink"
 	no = true
 	wait(1.8)
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/check78/GuidingLight/main/BlinkDie.txt"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatNoah/guidinglight/main/Blinkdie"))()
 	end
 	end
 eyes.Sound.Pitch = dances[math.random(1, #dances)]
@@ -222,7 +222,7 @@ wait(fuckyou[math.random(1, #fuckyou)])
 	game:GetService("ReplicatedStorage").GameStats["Player_".. game.Players.LocalPlayer.Name].Total.DeathCause.Value = "Blink"
 	no = true
 	wait(1.8)
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/check78/GuidingLight/main/BlinkDie.txt"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatNoah/guidinglight/main/Blinkdie"))()
 	end
 	end
 eyes.Sound.Pitch = dances[math.random(1, #dances)]
@@ -236,7 +236,7 @@ wait(fuckyou[math.random(1, #fuckyou)])
 	game:GetService("ReplicatedStorage").GameStats["Player_".. game.Players.LocalPlayer.Name].Total.DeathCause.Value = "Blink"
 	no = true
 	wait(1.8)
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/check78/GuidingLight/main/BlinkDie.txt"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatNoah/guidinglight/main/Blinkdie"))()
 	end
 	end
 eyes.Sound.Pitch = dances[math.random(1, #dances)]
@@ -250,7 +250,7 @@ wait(fuckyou[math.random(1, #fuckyou)])
 	game:GetService("ReplicatedStorage").GameStats["Player_".. game.Players.LocalPlayer.Name].Total.DeathCause.Value = "Blink"
 	no = true
 	wait(1.8)
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/check78/GuidingLight/main/BlinkDie.txt"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatNoah/guidinglight/main/Blinkdie"))()
 	end
 	end
 eyes.Sound.Pitch = dances[math.random(1, #dances)]
@@ -264,7 +264,7 @@ wait(fuckyou[math.random(1, #fuckyou)])
 	game:GetService("ReplicatedStorage").GameStats["Player_".. game.Players.LocalPlayer.Name].Total.DeathCause.Value = "Blink"
 	no = true
 	wait(1.8)
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/check78/GuidingLight/main/BlinkDie.txt"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatNoah/guidinglight/main/Blinkdie"))()
 	end
 	end
 eyes.Sound.Pitch = dances[math.random(1, #dances)]
@@ -278,7 +278,7 @@ wait(fuckyou[math.random(1, #fuckyou)])
 	game:GetService("ReplicatedStorage").GameStats["Player_".. game.Players.LocalPlayer.Name].Total.DeathCause.Value = "Blink"
 	no = true
 	wait(1.8)
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/check78/GuidingLight/main/BlinkDie.txt"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatNoah/guidinglight/main/Blinkdie"))()
 	end
 	end
 eyes.Sound.Pitch = dances[math.random(1, #dances)]
@@ -292,7 +292,7 @@ wait(fuckyou[math.random(1, #fuckyou)])
 	game:GetService("ReplicatedStorage").GameStats["Player_".. game.Players.LocalPlayer.Name].Total.DeathCause.Value = "Blink"
 	no = true
 	wait(1.8)
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/check78/GuidingLight/main/BlinkDie.txt"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatNoah/guidinglight/main/Blinkdie"))()
 	end
 	end
 eyes.Sound.Pitch = dances[math.random(1, #dances)]
@@ -306,7 +306,7 @@ wait(fuckyou[math.random(1, #fuckyou)])
 	game:GetService("ReplicatedStorage").GameStats["Player_".. game.Players.LocalPlayer.Name].Total.DeathCause.Value = "Blink"
 	no = true
 	wait(1.8)
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/check78/GuidingLight/main/BlinkDie.txt"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatNoah/guidinglight/main/Blinkdie"))()
 	end
 	end
 wait(fuckyou[math.random(1, #fuckyou)])
@@ -317,7 +317,7 @@ wait(fuckyou[math.random(1, #fuckyou)])
 	game:GetService("ReplicatedStorage").GameStats["Player_".. game.Players.LocalPlayer.Name].Total.DeathCause.Value = "Blink"
 	no = true
 	wait(1.8)
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/check78/GuidingLight/main/BlinkDie.txt"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatNoah/guidinglight/main/Blinkdie"))()
 	end
 	end
 eyes.Sound.Pitch = dances[math.random(1, #dances)]
@@ -331,7 +331,7 @@ wait(fuckyou[math.random(1, #fuckyou)])
 	game:GetService("ReplicatedStorage").GameStats["Player_".. game.Players.LocalPlayer.Name].Total.DeathCause.Value = "Blink"
 	no = true
 	wait(1.8)
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/check78/GuidingLight/main/BlinkDie.txt"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatNoah/guidinglight/main/Blinkdie"))()
 	end
 	end
 eyes.Sound.Pitch = dances[math.random(1, #dances)]
@@ -345,7 +345,7 @@ wait(fuckyou[math.random(1, #fuckyou)])
 	game:GetService("ReplicatedStorage").GameStats["Player_".. game.Players.LocalPlayer.Name].Total.DeathCause.Value = "Blink"
 	no = true
 	wait(1.8)
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/check78/GuidingLight/main/BlinkDie.txt"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatNoah/guidinglight/main/Blinkdie"))()
 	end
 	end
 eyes.Sound.Pitch = dances[math.random(1, #dances)]
@@ -359,7 +359,7 @@ wait(fuckyou[math.random(1, #fuckyou)])
 	game:GetService("ReplicatedStorage").GameStats["Player_".. game.Players.LocalPlayer.Name].Total.DeathCause.Value = "Blink"
 	no = true
 	wait(1.8)
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/check78/GuidingLight/main/BlinkDie.txt"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatNoah/guidinglight/main/Blinkdie"))()
 	end
 	end
 eyes.Sound.Pitch = dances[math.random(1, #dances)]
@@ -373,7 +373,7 @@ wait(fuckyou[math.random(1, #fuckyou)])
 	game:GetService("ReplicatedStorage").GameStats["Player_".. game.Players.LocalPlayer.Name].Total.DeathCause.Value = "Blink"
 	no = true
 	wait(1.8)
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/check78/GuidingLight/main/BlinkDie.txt"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatNoah/guidinglight/main/Blinkdie"))()
 	end
 	end
 eyes.Sound.Pitch = dances[math.random(1, #dances)]
@@ -387,7 +387,7 @@ wait(fuckyou[math.random(1, #fuckyou)])
 	game:GetService("ReplicatedStorage").GameStats["Player_".. game.Players.LocalPlayer.Name].Total.DeathCause.Value = "Blink"
 	no = true
 	wait(1.8)
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/check78/GuidingLight/main/BlinkDie.txt"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatNoah/guidinglight/main/Blinkdie"))()
 	end
 	end
 eyes.Sound.Pitch = dances[math.random(1, #dances)]
@@ -401,7 +401,7 @@ wait(fuckyou[math.random(1, #fuckyou)])
 	game:GetService("ReplicatedStorage").GameStats["Player_".. game.Players.LocalPlayer.Name].Total.DeathCause.Value = "Blink"
 	no = true
 	wait(1.8)
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/check78/GuidingLight/main/BlinkDie.txt"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatNoah/guidinglight/main/Blinkdie"))()
 	end
 	end
 wait(fuckyou[math.random(1, #fuckyou)])
@@ -412,7 +412,7 @@ wait(fuckyou[math.random(1, #fuckyou)])
 	game:GetService("ReplicatedStorage").GameStats["Player_".. game.Players.LocalPlayer.Name].Total.DeathCause.Value = "Blink"
 	no = true
 	wait(1.8)
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/check78/GuidingLight/main/BlinkDie.txt"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatNoah/guidinglight/main/Blinkdie"))()
 	end
 	end
 eyes.Sound.Pitch = dances[math.random(1, #dances)]
@@ -426,7 +426,7 @@ wait(fuckyou[math.random(1, #fuckyou)])
 	game:GetService("ReplicatedStorage").GameStats["Player_".. game.Players.LocalPlayer.Name].Total.DeathCause.Value = "Blink"
 	no = true
 	wait(1.8)
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/check78/GuidingLight/main/BlinkDie.txt"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatNoah/guidinglight/main/Blinkdie"))()
 	end
 	end
 eyes.Sound.Pitch = dances[math.random(1, #dances)]
@@ -440,7 +440,7 @@ wait(fuckyou[math.random(1, #fuckyou)])
 	game:GetService("ReplicatedStorage").GameStats["Player_".. game.Players.LocalPlayer.Name].Total.DeathCause.Value = "Blink"
 	no = true
 	wait(1.8)
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/check78/GuidingLight/main/BlinkDie.txt"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatNoah/guidinglight/main/Blinkdie"))()
 	end
 	end
 eyes.Sound.Pitch = dances[math.random(1, #dances)]
@@ -454,7 +454,7 @@ wait(fuckyou[math.random(1, #fuckyou)])
 	game:GetService("ReplicatedStorage").GameStats["Player_".. game.Players.LocalPlayer.Name].Total.DeathCause.Value = "Blink"
 	no = true
 	wait(1.8)
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/check78/GuidingLight/main/BlinkDie.txt"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatNoah/guidinglight/main/Blinkdie"))()
 	end
 	end
 wait(fuckyou[math.random(1, #fuckyou)])
@@ -465,7 +465,7 @@ wait(fuckyou[math.random(1, #fuckyou)])
 	game:GetService("ReplicatedStorage").GameStats["Player_".. game.Players.LocalPlayer.Name].Total.DeathCause.Value = "Blink"
 	no = true
 	wait(1.8)
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/check78/GuidingLight/main/BlinkDie.txt"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatNoah/guidinglight/main/Blinkdie"))()
 	end
 	end
 eyes.Sound.Pitch = dances[math.random(1, #dances)]
@@ -479,7 +479,7 @@ wait(fuckyou[math.random(1, #fuckyou)])
 	game:GetService("ReplicatedStorage").GameStats["Player_".. game.Players.LocalPlayer.Name].Total.DeathCause.Value = "Blink"
 	no = true
 	wait(1.8)
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/check78/GuidingLight/main/BlinkDie.txt"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatNoah/guidinglight/main/Blinkdie"))()
 	end
 	end
 eyes.Sound.Pitch = dances[math.random(1, #dances)]
@@ -493,7 +493,7 @@ wait(fuckyou[math.random(1, #fuckyou)])
 	game:GetService("ReplicatedStorage").GameStats["Player_".. game.Players.LocalPlayer.Name].Total.DeathCause.Value = "Blink"
 	no = true
 	wait(1.8)
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/check78/GuidingLight/main/BlinkDie.txt"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatNoah/guidinglight/main/Blinkdie"))()
 	end
 	end
 eyes.Sound.Pitch = dances[math.random(1, #dances)]
@@ -507,7 +507,7 @@ wait(fuckyou[math.random(1, #fuckyou)])
 	game:GetService("ReplicatedStorage").GameStats["Player_".. game.Players.LocalPlayer.Name].Total.DeathCause.Value = "Blink"
 	no = true
 	wait(1.8)
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/check78/GuidingLight/main/BlinkDie.txt"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatNoah/guidinglight/main/Blinkdie"))()
 	end
 	end
 eyes.Sound.Pitch = dances[math.random(1, #dances)]
@@ -521,7 +521,7 @@ wait(fuckyou[math.random(1, #fuckyou)])
 	game:GetService("ReplicatedStorage").GameStats["Player_".. game.Players.LocalPlayer.Name].Total.DeathCause.Value = "Blink"
 	no = true
 	wait(1.8)
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/check78/GuidingLight/main/BlinkDie.txt"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatNoah/guidinglight/main/Blinkdie"))()
 	end
 	end
 eyes.Sound.Pitch = dances[math.random(1, #dances)]
@@ -535,7 +535,7 @@ wait(fuckyou[math.random(1, #fuckyou)])
 	game:GetService("ReplicatedStorage").GameStats["Player_".. game.Players.LocalPlayer.Name].Total.DeathCause.Value = "Blink"
 	no = true
 	wait(1.8)
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/check78/GuidingLight/main/BlinkDie.txt"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatNoah/guidinglight/main/Blinkdie"))()
 	end
 	end
 eyes.Sound.Pitch = dances[math.random(1, #dances)]
@@ -549,7 +549,7 @@ wait(fuckyou[math.random(1, #fuckyou)])
 	game:GetService("ReplicatedStorage").GameStats["Player_".. game.Players.LocalPlayer.Name].Total.DeathCause.Value = "Blink"
 	no = true
 	wait(1.8)
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/check78/GuidingLight/main/BlinkDie.txt"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatNoah/guidinglight/main/Blinkdie"))()
 	end
 	end
 eyes.Sound.Pitch = dances[math.random(1, #dances)]
@@ -563,7 +563,7 @@ wait(fuckyou[math.random(1, #fuckyou)])
 	game:GetService("ReplicatedStorage").GameStats["Player_".. game.Players.LocalPlayer.Name].Total.DeathCause.Value = "Blink"
 	no = true
 	wait(1.8)
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/check78/GuidingLight/main/BlinkDie.txt"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatNoah/guidinglight/main/Blinkdie"))()
 	end
 	end
 eyes.Sound.Pitch = dances[math.random(1, #dances)]
@@ -577,7 +577,7 @@ wait(fuckyou[math.random(1, #fuckyou)])
 	game:GetService("ReplicatedStorage").GameStats["Player_".. game.Players.LocalPlayer.Name].Total.DeathCause.Value = "Blink"
 	no = true
 	wait(1.8)
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/check78/GuidingLight/main/BlinkDie.txt"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatNoah/guidinglight/main/Blinkdie"))()
 	end
 	end
 eyes.Sound.Pitch = dances[math.random(1, #dances)]
