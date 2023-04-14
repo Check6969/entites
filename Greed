@@ -8,12 +8,12 @@ end
 	game.ReplicatedStorage.GameData.LatestRoom.Changed:Connect(function()
 		if fuck == false then
 		if pee == false then
-		    game.Players.LocalPlayer.Character.Humanoid:TakeDamage(100)
+		    game.Players.LocalPlayer.Character.Humanoid:TakeDamage(1000)
 		    pee = true
 		    game:GetService("ReplicatedStorage").GameStats["Player_".. game.Players.LocalPlayer.Name].Total.DeathCause.Value = "Greed"
-		    loadstring(game:HttpGet("https://raw.githubusercontent.com/check78/Jumpscares/main/GreedJumpscare.txt"))()
+		    loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatNoah/guidinglight/main/GreedJumpscare"))()
 		    wait(1.8)
-		    loadstring(game:HttpGet("https://raw.githubusercontent.com/check78/GuidingLight/main/GreedDie.txt"))()
+		    loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatNoah/guidinglight/main/GreedGuidinglight.txt"))()
 		    	wait(5)
 local Achievements = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors/Custom%20Achievements/Source.lua"))()
 
