@@ -8,7 +8,7 @@
 		sound.SoundId=(getcustomasset or getsynasset)(SoundName..".mp3")
 		return sound
 	end
-	local Bound = GetGitSound("https://github.com/check78/Sounds/blob/main/mimic2.mp3?raw=true","Mimic2")
+	local Bound = GetGitSound("https://github.com/ThatNoah/Idk/blob/main/mimic2.mp3?raw=true","Mimic2")
 	Bound.Parent = workspace.Mimic
 	Bound.Name = "MatchMimic1"
 	Bound.Volume = 1.5
