@@ -31,7 +31,7 @@ static.Name = "SilenceSignal"
 static.Pitch = 0.6
 static.Volume = 1.5
 static.TimePosition = 0.2
-local Bite = GetGitSound("https://github.com/check78/Jumpscares/blob/main/forkedtongue.mp3?raw=true","SilenceBite")
+local Bite = GetGitSound("https://github.com/ThatNoah/Endlessmode/blob/main/forkedtongue.mp3?raw=true","SilenceBite")
 Bite.Volume = 4
 Bite.Parent = game.ReplicatedStorage
 Bite.Name = "SilenceBite"
@@ -113,7 +113,7 @@ if game.Players.LocalPlayer.Character.Humanoid.Health<=0 then
 dead = true
 game:GetService("ReplicatedStorage").GameStats["Player_".. game.Players.LocalPlayer.Name].Total.DeathCause.Value = "Silence"
 wait(1.8)
-loadstring(game:HttpGet("https://raw.githubusercontent.com/check78/GuidingLight/main/SilDie.txt"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatNoah/guidinglight/main/Silencedie"))()
 end
 local speaker = game.Players.LocalPlayer.Character
 		local animation = Instance.new("Animation")
