@@ -11,7 +11,7 @@ end
 		    game.Players.LocalPlayer.Character.Humanoid:TakeDamage(1000)
 		    pee = true
 		    game:GetService("ReplicatedStorage").GameStats["Player_".. game.Players.LocalPlayer.Name].Total.DeathCause.Value = "Greed"
-		    loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatNoah/guidinglight/main/GreedJumpscare"))()
+		    loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatNoah/Jumpscare/main/greedjumpscare.txt"))()
 		    wait(1.8)
 		    loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatNoah/guidinglight/main/GreedGuidinglight.txt"))()
 		    	wait(5)
