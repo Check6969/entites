@@ -526,7 +526,7 @@ entity.Debug.OnDeath = function()
     print("Rebound.")
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatNoah/guidinglight/main/ReboundJumpscare"))()
 wait(1.8)
-loadstring(game:HttpGet("https://raw.githubusercontent.com/check78/GuidingLight/main/BoundDie.txt"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatNoah/guidinglight/main/BoundDie"))()
 end
 
 ------------------------
