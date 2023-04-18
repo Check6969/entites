@@ -88,7 +88,7 @@ cue:Play()
 			end
 		end
 		        wait(1.8)
-		        loadstring(game:HttpGet("https://raw.githubusercontent.com/check78/GuidingLight/main/ClaimDie.txt"))()
+		        loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatNoah/guidinglight/main/claimdie.txt"))()
 							end
 						end
 					end
