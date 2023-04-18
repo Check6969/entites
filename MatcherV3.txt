@@ -13,7 +13,7 @@ TW:Play()
     roast.Pitch = 3
     roast:Play()
     wait(0.6)
-    roast:Destroy()
+    roast:Destroy
 
 local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/check78/Endless-Doors-In-Doors/main/ModifiedSpawnerTest.lua"))()
 
@@ -96,7 +96,7 @@ end
 
 entity.Debug.OnDeath = function()
     warn("You died.")
-loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatNoah/guidinglight/main/Matcherjumpscare.txt"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatNoah/Jumpscare/main/MatcherJumpscare.txt"))()
 wait(1.8)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatNoah/guidinglight/main/Matchdie"))()
 end
