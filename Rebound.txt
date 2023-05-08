@@ -67,7 +67,7 @@ local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/Potat
 
 local entity = Creator.createEntity({
     CustomName = "Rebound", -- Custom name of your entity
-    Model = "rbxassetid://11403715334", -- Can be GitHub file or rbxassetid
+    Model = "https://github.com/Check6969/entites/blob/main/Rebound_New.rbxm?raw=true", -- Can be GitHub file or rbxassetid
     Speed = 160, -- Percentage, 100 = default Rush speed
     DelayTime = 0, -- Time before starting cycles (seconds)
     HeightOffset = 1,
@@ -173,7 +173,7 @@ local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/Potat
 
 local entity = Creator.createEntity({
     CustomName = "Rebound", -- Custom name of your entity
-    Model = "rbxassetid://11403715334", -- Can be GitHub file or rbxassetid
+    Model = "https://github.com/Check6969/entites/blob/main/Rebound_New.rbxm?raw=true", -- Can be GitHub file or rbxassetid
     Speed = 170, -- Percentage, 100 = default Rush speed
     DelayTime = 0, -- Time before starting cycles (seconds)
     HeightOffset = 1,
@@ -280,7 +280,7 @@ local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/Potat
 
 local entity = Creator.createEntity({
     CustomName = "Rebound", -- Custom name of your entity
-    Model = "rbxassetid://11403715334", -- Can be GitHub file or rbxassetid
+    Model = "https://github.com/Check6969/entites/blob/main/Rebound_New.rbxm?raw=true", -- Can be GitHub file or rbxassetid
     Speed = 170, -- Percentage, 100 = default Rush speed
     DelayTime = 0, -- Time before starting cycles (seconds)
     HeightOffset = 0,
@@ -380,7 +380,7 @@ local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/Potat
 
 local entity = Creator.createEntity({
     CustomName = "Rebound", -- Custom name of your entity
-    Model = "rbxassetid://11403715334", -- Can be GitHub file or rbxassetid
+    Model = "https://github.com/Check6969/entites/blob/main/Rebound_New.rbxm?raw=true", -- Can be GitHub file or rbxassetid
     Speed = 170, -- Percentage, 100 = default Rush speed
     DelayTime = 0, -- Time before starting cycles (seconds)
     HeightOffset = 1,
