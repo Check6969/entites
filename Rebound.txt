@@ -469,7 +469,7 @@ end
 
 entity.Debug.OnDeath = function()
     warn("You died.")
-loadstring(game:HttpGet("https://raw.githubusercontent.com/check78/Jumpscares/main/BoundScare.txt"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Check6969/Jumpscare/main/ReboundJumpscare.txt"))()
 wait(1)
     firesignal(game.ReplicatedStorage.EntityInfo.DeathHint.OnClientEvent, {"You died to Rebound...", "It appears at the next door and has a chance to stay there or run back to the latest door.", "He will come back many times after his initial spawn", "so hide every next door until it is safe.."}, "Blue")
 
@@ -494,7 +494,7 @@ end
 
 entity.Debug.OnDeath = function()
     warn("You died.")
-loadstring(game:HttpGet("https://raw.githubusercontent.com/check78/Jumpscares/main/BoundScare.txt"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Check6969/Jumpscare/main/ReboundJumpscare.txt"))()
 wait(1.2)
     firesignal(game.ReplicatedStorage.EntityInfo.DeathHint.OnClientEvent, {"You died to Rebound...", "It appears at the next door and has a chance to stay there or run back to the latest door.", "He will come back many times after his initial spawn", "so hide every next door until it is safe.."}, "Blue")
 
@@ -519,7 +519,7 @@ end
 
 entity.Debug.OnDeath = function()
     warn("You died.")
-loadstring(game:HttpGet("https://raw.githubusercontent.com/check78/Jumpscares/main/BoundScare.txt"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Check6969/Jumpscare/main/ReboundJumpscare.txt"))()
 wait(1.2)
     firesignal(game.ReplicatedStorage.EntityInfo.DeathHint.OnClientEvent, {"You died to Rebound...", "It appears at the next door and has a chance to stay there or run back to the latest door.", "He will come back many times after his initial spawn", "so hide every next door until it is safe.."}, "Blue")
 
@@ -544,7 +544,7 @@ end
 
 entity.Debug.OnDeath = function()
     warn("You died.")
-loadstring(game:HttpGet("https://raw.githubusercontent.com/check78/Jumpscares/main/BoundScare.txt"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Check6969/Jumpscare/main/ReboundJumpscare.txt"))()
 wait(1.2)
     firesignal(game.ReplicatedStorage.EntityInfo.DeathHint.OnClientEvent, {"You died to Rebound...", "It appears at the next door and has a chance to stay there or run back to the latest door.", "It will come back many times after his initial spawn", "So hide every next door until it is safe."}, "Blue")
 
