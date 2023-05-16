@@ -63,7 +63,7 @@ cue:Play()
 						local parent = script.Parent
 						if v.Character ~= nil and not v.Character:GetAttribute("Hiding") then
 							if canSeeTarget(v.Character,50) then
-								v.Character:FindFirstChildWhichIsA("Humanoid"):TakeDamage(100)
+							v.Character:FindFirstChildWhichIsA("Humanoid"):TakeDamage(100)
 				game:GetService("ReplicatedStorage").GameStats["Player_".. game.Players.LocalPlayer.Name].Total.DeathCause.Value = "Claim"
 				death:Play()
 				local speaker = game.Players.LocalPlayer.Character
@@ -88,7 +88,7 @@ cue:Play()
 			end
 		end
 		        wait(1.8)
-		        loadstring(game:HttpGet("https://raw.githubusercontent.com/ThatNoah/guidinglight/main/claimdie.txt"))()
+		        firesignal(game.ReplicatedStorage.EntityInfo.DeathHint.OnClientEvent, {"You died to Claim.", "You have to hide Behind The door or beside the door Or claim will take u", "Try Again Later"}, "Blue")
 							end
 						end
 					end
